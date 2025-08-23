@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA FIEBRE DEL ORO - Sala de Escape</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            background: #fbe8a6;
+            color: #3c2f1e;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header {
+            width: 100%;
+            background: #8b6f43;
+            color: #fffbe6;
+            padding: 30px 0 10px 0;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        .main-image {
+            width: 90%;
+            max-width: 600px;
+            border: 7px solid #a77f3b;
+            border-radius: 12px;
+            margin: 30px 0 20px 0;
+            box-shadow: 0 8px 24px rgba(140, 110, 50, 0.15);
+        }
+        .descripcion {
+            max-width: 700px;
+            font-size: 1.3em;
+            margin: 10px 0 20px 0;
+            text-align: center;
+        }
+        .apertura {
+            font-size: 2em;
+            font-weight: bold;
+            background: #ffd700;
+            color: #a77f3b;
+            padding: 16px 32px;
+            border-radius: 15px;
+            border: 3px solid #a77f3b;
+            margin: 15px 0 25px 0;
+            box-shadow: 0 4px 12px rgba(180, 150, 55, 0.1);
+            display: inline-block;
+        }
+        .contacto {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            background: #fffbe6;
+            padding: 14px 28px;
+            border-radius: 10px;
+            border: 2px solid #a77f3b;
+            display: inline-block;
+        }
+        @media (max-width: 600px) {
+            .main-image {
+                width: 100%;
+            }
+            .apertura {
+                font-size: 1.3em;
+                padding: 10px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LA FIEBRE DEL ORO</h1>
+        <h2>Sala de Escape - El Viejo Oeste</h2>
+    </header>
+    <img
+        src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+        alt="Paisaje del Oeste"
+        class="main-image"
+    />
+    <div class="descripcion">
+        Vive la aventura del Lejano Oeste: busca pistas, resuelve enigmas y descubre el secreto que esconde la fiebre del oro. ¿Serás capaz de escapar a tiempo?
+    </div>
+    <div class="apertura">PRÓXIMA APERTURA</div>
+    <div class="contacto">
+        Para más información o reservas: <br>
+        <a href="mailto:info@lafiebredeoro.com">info@lafiebredeoro.com</a>
+    </div>
+</body>
+</html>
